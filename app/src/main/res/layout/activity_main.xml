@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/text_user_label"
         android:layout_width="match_parent"
@@ -23,6 +24,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/text_height"
+        android:layout_marginLeft="@dimen/img_width"
         android:ems="10"
         android:hint="@string/user"
         android:inputType="textPersonName"
@@ -45,9 +47,8 @@
 
     <EditText
         android:id="@+id/editTextPassword"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/border_left_right"
         android:layout_marginTop="@dimen/text_height"
         android:layout_marginRight="@dimen/border_left_right"
         android:ems="10"
@@ -63,17 +64,49 @@
         android:id="@+id/button_login"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        android:layout_marginTop="@dimen/button_top_border"
         android:layout_marginLeft="@dimen/button_border_left_right"
+        android:layout_marginTop="@dimen/button_top_border"
         android:layout_marginRight="@dimen/button_border_left_right"
-        app:layout_constraintTop_toBottomOf="@id/editTextPassword"
-        app:layout_constraintRight_toRightOf="@id/text_password"
-        app:layout_constraintLeft_toLeftOf="@id/text_password"
-        android:text="@string/login"
         android:backgroundTint="@color/black"
+        android:text="@string/login"
         android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="@id/text_password"
+        app:layout_constraintRight_toRightOf="@id/text_password"
+        app:layout_constraintTop_toBottomOf="@id/editTextPassword"
 
         />
+
+
+
+
+    <ImageView
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:src="@drawable/ic_corona"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:tint="@color/black"></ImageView>
+
+    <ImageView
+        android:layout_width="@dimen/img_width"
+        android:layout_height="@dimen/img_height"
+        app:layout_constraintLeft_toLeftOf="@id/text_user_label"
+        app:layout_constraintTop_toTopOf="@id/editTextTextPersonName"
+        android:src="@drawable/ic_usuario"
+        app:tint="@color/black"
+        ></ImageView>
+    <ImageView
+        android:layout_width="@dimen/img_width"
+        android:layout_height="@dimen/img_height"
+        app:layout_constraintRight_toRightOf="@id/text_user_label"
+        app:layout_constraintTop_toTopOf="@id/editTextPassword"
+        android:src="@drawable/ic_baseline_vpn_key_24"
+
+        app:tint="@color/black"></ImageView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
