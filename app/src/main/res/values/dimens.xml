@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="top_border">80dip</dimen>
-    <dimen name="border_left_right">40dip</dimen>
+    <dimen name="top_border">100dip</dimen>
+    <dimen name="border_left_right">45dip</dimen>
     <dimen name="text_height">35dip</dimen>
 
 
@@ -13,6 +13,6 @@
     <dimen name="button_border_left_right">200dip</dimen>
 
     <!--dimension img-->
-    <dimen name="img_height">30dip</dimen>
+    <dimen name="img_height">35dip</dimen>
     <dimen name="img_width">30dip</dimen>
 </resources>
