@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/drawable-night/bordes.xml" value="0.2555" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/drawable-night/gradiendrawable.xml" value="0.2555" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/drawable/bordes.xml" value="0.2555" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/drawable/contorno.xml" value="0.2555" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/drawable/gradiendrawable.xml" value="0.2555" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
       </map>
     </option>
