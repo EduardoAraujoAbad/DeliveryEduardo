@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/gradiendrawable">
+    android:background="@drawable/gradiendrawable"
+    tools:context=".MainActivity">
 
 
     <TextView
@@ -93,7 +93,6 @@
     <ImageView
         android:layout_width="@dimen/img_width"
         android:layout_height="@dimen/img_height"
-        android:background="@drawable/circle"
         android:src="@drawable/ic_usuario"
         app:layout_constraintLeft_toLeftOf="@id/text_user_label"
         app:layout_constraintTop_toTopOf="@id/editTextTextPersonName"
@@ -102,12 +101,25 @@
     <ImageView
         android:layout_width="@dimen/img_width"
         android:layout_height="@dimen/img_height"
-        android:background="@drawable/circle"
         android:src="@drawable/ic_baseline_vpn_key_24"
         app:layout_constraintRight_toRightOf="@id/text_password"
         app:layout_constraintTop_toTopOf="@id/editTextPassword"
 
         app:tint="@color/black"></ImageView>
+
+    <TextView
+        android:layout_width="@dimen/caja_texto_width"
+        android:layout_height="@dimen/caja_texto_height"
+        android:layout_marginBottom="@dimen/text_height"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_height"
+        app:layout_constraintBottom_toTopOf="@id/text_user_label"
+        app:layout_constraintLeft_toLeftOf="@id/text_user_label"
+        app:layout_constraintRight_toRightOf="@id/text_user_label"
+
+        ></TextView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

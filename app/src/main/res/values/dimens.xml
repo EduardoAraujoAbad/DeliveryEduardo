@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--dimension text-->
     <dimen name="top_border">100dip</dimen>
     <dimen name="border_left_right">45dip</dimen>
     <dimen name="text_height">35dip</dimen>
+    <dimen name="caja_texto_height">50dip</dimen>
+    <dimen name="caja_texto_width">200dip</dimen>
 
 
     <!--dimension botones-->
