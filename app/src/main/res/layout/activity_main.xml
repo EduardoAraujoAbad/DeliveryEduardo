@@ -15,8 +15,10 @@
         android:layout_marginLeft="@dimen/border_left_right"
         android:layout_marginTop="@dimen/top_border"
         android:layout_marginRight="@dimen/border_left_right"
+        android:fontFamily="@font/font1"
         android:text="@string/user"
         android:textColor="@color/black"
+        android:textFontWeight="@dimen/font_weight"
         android:textSize="@dimen/text_height"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,8 +30,11 @@
         android:layout_marginTop="@dimen/text_height"
         android:background="@drawable/bordes"
         android:ems="10"
+        android:fontFamily="@font/font1"
         android:hint="@string/user"
         android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textFontWeight="@dimen/font_weight"
         app:layout_constraintLeft_toLeftOf="@id/text_user_label"
         app:layout_constraintRight_toRightOf="@id/text_user_label"
         app:layout_constraintTop_toBottomOf="@id/text_user_label" />
@@ -41,8 +46,10 @@
         android:layout_marginLeft="@dimen/border_left_right"
         android:layout_marginTop="@dimen/top_border"
         android:layout_marginRight="@dimen/border_left_right"
+        android:fontFamily="@font/font1"
         android:text="@string/password"
         android:textColor="@color/black"
+        android:textFontWeight="@dimen/font_weight"
         android:textSize="@dimen/text_height"
         app:layout_constraintLeft_toLeftOf="@+id/text_user_label"
         app:layout_constraintTop_toBottomOf="@+id/text_user_label" />
@@ -55,8 +62,11 @@
         android:layout_marginRight="@dimen/img_width"
         android:background="@drawable/bordes"
         android:ems="10"
+        android:fontFamily="@font/font1"
         android:hint="@string/password"
         android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textFontWeight="@dimen/font_weight"
         app:layout_constraintLeft_toLeftOf="@id/text_password"
         app:layout_constraintRight_toRightOf="@id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@id/text_password" />
@@ -69,8 +79,10 @@
         android:layout_marginTop="@dimen/button_top_border"
         android:layout_marginRight="@dimen/button_border_left_right"
         android:backgroundTint="@color/black"
+        android:fontFamily="@font/font1"
         android:text="@string/login"
         android:textColor="@color/white"
+        android:textFontWeight="@dimen/font_weight"
         app:layout_constraintLeft_toLeftOf="@id/text_password"
         app:layout_constraintRight_toRightOf="@id/text_password"
         app:layout_constraintTop_toTopOf="@id/editTextPassword"
@@ -79,15 +91,15 @@
 
 
     <ImageView
-        android:layout_width="200dip"
-        android:layout_height="200dip"
-        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/img_height_fondo"
+        android:alpha="0.2"
+        android:background="@drawable/ic_sky_line"
+        android:backgroundTint="@color/black"
         android:contentDescription="@string/user"
-        android:src="@drawable/ic_corona"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-
         app:tint="@color/black"></ImageView>
 
     <ImageView
@@ -111,15 +123,15 @@
         android:layout_width="@dimen/caja_texto_width"
         android:layout_height="@dimen/caja_texto_height"
         android:layout_marginBottom="@dimen/text_height"
+        android:fontFamily="@font/font1"
         android:text="@string/login"
         android:textAlignment="center"
         android:textColor="@color/black"
+        android:textFontWeight="@dimen/font_weight"
         android:textSize="@dimen/text_height"
         app:layout_constraintBottom_toTopOf="@id/text_user_label"
         app:layout_constraintLeft_toLeftOf="@id/text_user_label"
-        app:layout_constraintRight_toRightOf="@id/text_user_label"
-
-        ></TextView>
+        app:layout_constraintRight_toRightOf="@id/text_user_label"></TextView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,4 +18,13 @@
     <!--dimension img-->
     <dimen name="img_height">35dip</dimen>
     <dimen name="img_width">30dip</dimen>
+    <!--dimension img fondo-->
+
+
+    <dimen name="img_height_fondo">350dip</dimen>
+    <dimen name="img_width_fondo">30dip</dimen>
+    <dimen name="margin_bot_fondo">-75dip</dimen>
+
+    <!---Font weight -->
+    <dimen name="font_weight">3000</dimen>
 </resources>

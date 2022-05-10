@@ -5,13 +5,17 @@
       <map>
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/drawable-night/bordes.xml" value="0.2555" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/drawable-night/circle.xml" value="0.2545" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/drawable-night/fonts.xml" value="0.211" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/drawable-night/gradiendrawable.xml" value="0.2555" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/drawable/bordes.xml" value="0.2555" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/drawable/circle.xml" value="0.2545" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/drawable/cloud.xml" value="0.2555" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/drawable/contorno.xml" value="0.2555" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/drawable/fonts.xml" value="0.211" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/drawable/gradiendrawable.xml" value="0.8" />
-        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/font-night/font.xml" value="0.2291577597263788" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/font/font.xml" value="0.2291577597263788" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DeliveryEduardo/app/src/main/res/layout/activity_main.xml" value="0.2" />
       </map>
     </option>
   </component>
