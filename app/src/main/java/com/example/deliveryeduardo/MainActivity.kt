@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         initializationListeners()
         setContentView(views.root)
     }
+
     private fun initializationListeners(){
         views.buttonLogin.setOnClickListener{
             Toast.makeText(this,"El usuario es:"+" "+ views.editTextTextPersonName.text+" "+"y su contrasena es"+" "+views.editTextPassword.text, Toast.LENGTH_SHORT).show()
