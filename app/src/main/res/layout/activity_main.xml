@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradiendrawable"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
 
 
     <TextView
@@ -18,7 +21,7 @@
         android:fontFamily="@font/font1"
         android:text="@string/user"
         android:textColor="@color/black"
-        android:textFontWeight="@dimen/font_weight"
+
         android:textSize="@dimen/text_height"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -34,7 +37,7 @@
         android:hint="@string/user"
         android:inputType="textPersonName"
         android:textColor="@color/black"
-        android:textFontWeight="@dimen/font_weight"
+
         app:layout_constraintLeft_toLeftOf="@id/text_user_label"
         app:layout_constraintRight_toRightOf="@id/text_user_label"
         app:layout_constraintTop_toBottomOf="@id/text_user_label" />
@@ -49,7 +52,7 @@
         android:fontFamily="@font/font1"
         android:text="@string/password"
         android:textColor="@color/black"
-        android:textFontWeight="@dimen/font_weight"
+
         android:textSize="@dimen/text_height"
         app:layout_constraintLeft_toLeftOf="@+id/text_user_label"
         app:layout_constraintTop_toBottomOf="@+id/text_user_label" />
@@ -66,7 +69,7 @@
         android:hint="@string/password"
         android:inputType="textPassword"
         android:textColor="@color/black"
-        android:textFontWeight="@dimen/font_weight"
+
         app:layout_constraintLeft_toLeftOf="@id/text_password"
         app:layout_constraintRight_toRightOf="@id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@id/text_password" />
@@ -76,16 +79,16 @@
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:layout_marginLeft="@dimen/button_border_left_right"
-        android:layout_marginTop="@dimen/button_top_border"
+        android:layout_marginTop="@dimen/text_height"
         android:layout_marginRight="@dimen/button_border_left_right"
         android:backgroundTint="@color/black"
         android:fontFamily="@font/font1"
         android:text="@string/login"
         android:textColor="@color/white"
-        android:textFontWeight="@dimen/font_weight"
+
         app:layout_constraintLeft_toLeftOf="@id/text_password"
         app:layout_constraintRight_toRightOf="@id/text_password"
-        app:layout_constraintTop_toTopOf="@id/editTextPassword"
+        app:layout_constraintTop_toBottomOf="@id/editTextPassword"
 
         />
 
@@ -127,11 +130,13 @@
         android:text="@string/login"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textFontWeight="@dimen/font_weight"
+
         android:textSize="@dimen/text_height"
         app:layout_constraintBottom_toTopOf="@id/text_user_label"
         app:layout_constraintLeft_toLeftOf="@id/text_user_label"
         app:layout_constraintRight_toRightOf="@id/text_user_label"></TextView>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
